@@ -8,7 +8,7 @@ const options = [
     { value: 'categories', label: 'категории' }
 ];
 
-class Index extends React.Component {
+class SortingSelect extends React.Component {
     state = {
         selectedOption: null,
     }
@@ -33,4 +33,4 @@ class Index extends React.Component {
         );
     }
 }
-export default Index
+export default SortingSelect

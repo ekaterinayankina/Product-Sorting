@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import ProductList from './ProductList'
-import Index from './SortingSelect'
+import SortingSelect from './SortingSelect'
 import 'bootstrap/dist/css/bootstrap.css'
 
 
@@ -25,7 +25,7 @@ class App extends Component {
     render() {
         return (
             <div className="container">
-                <Index updateData={this.updateData}/>
+                <SortingSelect updateData={this.updateData}/>
                 <ProductList
                     products={this.state.products}
                     sortingType={this.state.sortingType}

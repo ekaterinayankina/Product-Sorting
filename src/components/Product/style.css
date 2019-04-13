@@ -1,0 +1,23 @@
+.product {
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin: 5px;
+}
+
+.product__price {
+    font-size: 14px;
+    margin: 0;
+}
+
+.product__img {
+    display: block;
+    margin: 0 auto;
+    width: 135px;
+}
+
+.product__description {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+}
